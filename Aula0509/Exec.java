@@ -1,7 +1,7 @@
 package Aula0509;
 
 public class Exec {
-    static void main (String args[]){
+    public static void main (String args[]){
         Pessoa carro = new Pessoa();
         carro.name = "Vrum Vrum";
         carro.age = 18;
