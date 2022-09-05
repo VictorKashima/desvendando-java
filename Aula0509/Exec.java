@@ -8,31 +8,19 @@ public class Exec {
         carro.height = 1.75;
         carro.nationality = "Japonês";
         carro.printattrs();
+        carro.crescer();
+        carro.printattrs();
 
-
+        System.out.println("- - - - - - - - - - - - - - - - - - - - - ");
 
         Pessoa moto = new Pessoa();
         moto.name = "Rommm Rommm";
-        moto.age = 18;
+        moto.age = 21;
         moto.height = 2.20;
         moto.nationality = "Chinês";
         moto.printattrs();
-
-
-
-    
-
-        // for(carro.age = 15; carro.age <= 30; carro.age++){
-        //     System.out.println("Idade do carro: " +carro.age);
-
-        //     if (carro.age <= 20){
-        //         carro.crescer();
-        //     }
-        //     else{
-        //         carro.ncresce();
-        //     }
-
-        // }
+        moto.crescer();
+        moto.printattrs();
 
         
     }

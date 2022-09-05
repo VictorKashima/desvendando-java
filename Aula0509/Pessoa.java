@@ -18,11 +18,17 @@ public class Pessoa{
         System.out.println("A PESSOA ESTÁ COMENDO ÁGUA");
     }
     void crescer(){
-        System.out.println("A pessoa está crescendo!");
+        if(age <= 20){
+            this.height += 0.10;
+            System.out.println(this.name+" cresceu 10 centímetros");
+        }
+        else{
+            System.out.println(this.name+" não cresceu, porque possui "+this.age);
+        }
+        
+
     }
-    void ncresce(){
-        System.out.println("O carro não está crescendo!");
-    }
+
     void printattrs(){
         System.out.println("Nome: "+this.name);
         System.out.println("Idade: "+this.age);
