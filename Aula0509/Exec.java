@@ -7,9 +7,9 @@ public class Exec {
         carro.age = 18;
         carro.height = 1.75;
         carro.nationality = "Japonês";
-        carro.printattrs();
-        carro.crescer();
-        carro.printattrs();
+        // carro.printattrs();
+        // carro.crescer();
+        // carro.printattrs();
 
         System.out.println("- - - - - - - - - - - - - - - - - - - - - ");
 
@@ -18,9 +18,19 @@ public class Exec {
         moto.age = 21;
         moto.height = 2.20;
         moto.nationality = "Chinês";
-        moto.printattrs();
-        moto.crescer();
-        moto.printattrs();
+        // moto.printattrs();
+        // moto.crescer();
+        // moto.printattrs();
+
+
+
+        Vehicle saveiro = new Vehicle();
+        saveiro.brand = "Volkswaven";
+        saveiro.model = "G4 Surf";
+        saveiro.year = 2002;
+        saveiro.owner = carro;
+        saveiro.printattrs();
+        
 
         
     }
