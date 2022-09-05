@@ -23,6 +23,12 @@ public class Pessoa{
     void ncresce(){
         System.out.println("O carro não está crescendo!");
     }
+    void printattrs(){
+        System.out.println("Nome: "+this.name);
+        System.out.println("Idade: "+this.age);
+        System.out.println("Altura: "+this.height);
+        System.out.println("Nacionalidade: "+this.nationality);
+    }
 
 }
 
