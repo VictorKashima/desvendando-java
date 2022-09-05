@@ -20,6 +20,9 @@ public class Pessoa{
     void crescer(){
         System.out.println("A pessoa está crescendo!");
     }
+    void ncresce(){
+        System.out.println("O carro não está crescendo!");
+    }
 
 }
 
