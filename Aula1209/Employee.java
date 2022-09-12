@@ -6,6 +6,11 @@ public class Employee {
     String role;
     int salary;
     String birthdate;
+    double money;
+    double percent;
+    float slice;
+    float income;
+    float aporte;
 
     //Métodos
     void printAll(){
@@ -24,6 +29,16 @@ public class Employee {
         this.salary += value;
         System.out.println("Seu salário foi alterado e agora é: "+this.salary);
         return percent;
+    }
+
+    double render(double percent, int month){
+        this.percent = percent/100;
+        for(int i=1; i<= month; i++){
+            this.money += this.money*percent;
+        }
+        return this.money;
+
+
     }
 
 }
