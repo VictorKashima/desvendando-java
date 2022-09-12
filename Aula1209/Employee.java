@@ -19,10 +19,11 @@ public class Employee {
         System.out.println(this.name+"Está trabalhando muito feliz!");
     }
 
-    void moreMoney(int value){
-        System.out.println("Seu salário atual é: "+this.salary);
+    double moreMoney(double value){
+        double percent = value/this.salary;
         this.salary += value;
         System.out.println("Seu salário foi alterado e agora é: "+this.salary);
+        return percent;
     }
 
 }
