@@ -26,7 +26,7 @@ public class Exec {
 
         Vehicle saveiro = new Vehicle();
         saveiro.brand = "Volkswaven";
-        saveiro.model = "G4 Surf";
+        saveiro.model = "Saveiro G4 Surf";
         saveiro.year = 2002;
         saveiro.owner = carro;
         saveiro.printattrs();
