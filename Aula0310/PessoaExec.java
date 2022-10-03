@@ -9,5 +9,7 @@ public class PessoaExec {
         System.out.println("P1: " +Pessoa.nationality);
         System.out.println("P2: " +Pessoa.nationality);
 
+        Pessoa.showNationality();
+
     }
 }
