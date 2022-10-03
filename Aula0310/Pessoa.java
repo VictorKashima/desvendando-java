@@ -12,4 +12,8 @@ class Pessoa{
         System.out.println(Pessoa.nationality);
     }
 
+    static void changeNationality(String newNationality){
+        Pessoa.nationality = newNationality;
+    }
+
 }
