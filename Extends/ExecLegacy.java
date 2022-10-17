@@ -20,6 +20,7 @@ public class ExecLegacy {
         BejaFror.EyeColor = "Vermelho";
 
         Victor.walk();
+        Victor.breathe();
 
     }
 

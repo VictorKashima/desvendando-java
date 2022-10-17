@@ -1,0 +1,19 @@
+package Encapsulamento;
+
+class Pessoa{
+    //Atributos
+    String name;
+    double height;
+    static String nationality;
+
+    //Métodos
+    static void showNationality(){
+        System.out.print("Nationality: ");
+        System.out.println(Pessoa.nationality);
+    }
+
+    static void changeNationality(String newNationality){
+        Pessoa.nationality = newNationality;
+    }
+
+}
