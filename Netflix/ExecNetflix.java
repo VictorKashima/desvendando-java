@@ -11,9 +11,10 @@ public class ExecNetflix {
         serie.setName("Baki");
         serie.setEpisodes(10);
 
-        filme.toPlay();
+        Player p = new Player();
+        p.setBrand("Xiaomi");
+        p.play(serie);
 
-        serie.toPlay(1, 1);
 
     }
 }

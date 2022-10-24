@@ -10,7 +10,7 @@ public class Content {
     }
 
     public String getName() {
-        return this.name;
+        return name;
     }
 
     public void setGenre(String genre) {
