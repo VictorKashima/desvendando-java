@@ -1,0 +1,6 @@
+Classe concreta = Possível manipular.
+
+
+Classe abstrata = Não posível manipular.
+    Serve para ser usada como "Clase Modelo".
+    Usar com "Herança" (Extends).
