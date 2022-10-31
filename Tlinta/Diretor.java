@@ -1,7 +1,7 @@
 package Tlinta;
 
 public abstract class Diretor extends Funcionario {
-    private String departamento;
+    private String departamento; 
     public String getDepartamento() {
         return departamento;
     }

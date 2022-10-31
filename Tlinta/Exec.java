@@ -6,8 +6,10 @@ public class Exec {
         Gerente g = new Gerente();
         g.setSalario(1000);
         System.out.println(g.getSalario());
-        g.bonificacao(0.50);
+        g.bonificacao(1.5);
         System.out.println(g.getSalario());
+
+        System.out.println("- - - - - -");
 
         Secretario s = new Secretario();
         s.setSalario(1000);
