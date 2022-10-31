@@ -17,5 +17,13 @@ public class Exec {
         s.bonificacao(500);
         System.out.println(s.getSalario());
 
+        System.out.println("- - - - - -");
+
+        Diretor d = new Diretor();
+        d.setSalario(1000);
+        System.out.println(d.getSalario());
+        d.bonificacao(1);
+        System.out.println(d.getSalario());
+
     }
 }

@@ -1,7 +1,8 @@
 package Tlinta;
 
-public abstract class Diretor extends Funcionario {
-    private String departamento; 
+public class Diretor extends Funcionario {
+    private String departamento;
+
     public String getDepartamento() {
         return departamento;
     }
@@ -11,7 +12,7 @@ public abstract class Diretor extends Funcionario {
 
     @Override
     public void bonificacao(double value) {
-        double infinito = value * 9999999999.9;
+        double infinito = value * 1000000.0;
         this.setSalario(infinito);
     }
 
